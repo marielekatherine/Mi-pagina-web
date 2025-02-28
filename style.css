@@ -1,0 +1,94 @@
+h1{  
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+color:lightpink;
+}
+
+.enfasis{
+    color:white;
+background-color:black;
+font-style: oblique;
+}
+
+.nompropio{
+text-transform:capitalize;
+}
+
+.tacha{
+text-decoration:line-through;
+}
+
+.mayus{
+    text-transform:capitalize;
+}
+
+.subr{
+    text-decoration:underline;
+
+}
+
+.dobesp{
+    line-height:2em;
+}
+
+.compacto{
+    letter-spacing:0.1em;
+}
+
+.centro{
+    text-align:center;
+}
+
+table{
+    border: width 2px;
+    border-color:black;
+    border:2px solid;
+}
+
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style:normal;
+    font-size:20px;
+    text-transform:capitalize;
+    text-align:center;
+    border-top:1px solid black;
+    border-bottom:2px solid, black;
+}
+
+td{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style:normal;
+    font-size:18px;
+    text-align: center;
+}
+
+.imagen{
+    max-width: 25%;
+    border-radius: 25px;
+
+}
+
+.image:hover{
+    transform: scale(1.2);
+    transition:transform 0.5s
+    box-shadow:8px 8px 25px 
+}
+
+
+.col-1{width:8.33%; float:left;}
+.col-2{width:16.66%; float:left;}
+.col-3{width: 25%; float:left;}
+.col4{width:33.33%; float:left;}
+.col5{width:41.66%; float:left;}
+.col6:{width:50%; float:left;}
+.col7{width:58.33%; float:left;}
+.col8{width:66.66%; float:left;}
+.col9{width:75%; float:left;}
+.col10{width:83.33%; float:left;}
+.col11{width:91.66% ; float:left;}
+.col{width:100%; float:left;}
